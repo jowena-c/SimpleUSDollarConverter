@@ -1,0 +1,49 @@
+
+.main{
+    padding: 10px;
+    position: absolute;
+    top: 25vh;
+    right: 76vh;
+    background-color: #FCFCFC;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main h1{
+    text-align: center;
+    padding: 5px;
+}
+
+.inputbox{
+    padding: 1px;
+    border: 1px solid #dadce0;
+    overflow: hidden;
+    border-radius: 6px;
+    width: 300px;
+}
+
+.btn-conversion button{
+    background-color: #d3d4d5;
+    color: black;
+}
+
+
+.btn-conversion button:active{
+    background-color: #4657A1;
+    color: whitesmoke;
+}
+
+.btn-conversion button:focus{
+    background-color: #4657A1;
+    color: whitesmoke;
+}
+
+.output{
+    background-color: #F5F7FF;
+    text-align: center;
+    padding: 10px;
+}
+
+.output h3{
+    margin: 0;
+    color: #4657A1;
+}
